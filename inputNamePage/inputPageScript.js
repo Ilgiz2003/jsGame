@@ -2,7 +2,7 @@ document.getElementById('startBtn').addEventListener('click', function() {
     var inputValue = document.getElementById('input').value.trim();
 
     if (inputValue === '') {
-        alert('Введите значение в поле!');
+        alert('Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ РІ РїРѕР»Рµ!');
     } else {
         if(localStorage.getItem(inputValue) == null){
             localStorage.setItem(inputValue, '0');
