@@ -2,7 +2,7 @@ document.getElementById('startBtn').addEventListener('click', function() {
     var inputValue = document.getElementById('input').value.trim();
 
     if (inputValue === '') {
-        alert('Введите значение в поле!');
+        alert('Please input name!');
     } else {
         if(localStorage.getItem(inputValue) == null){
             localStorage.setItem(inputValue, '0');
